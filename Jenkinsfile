@@ -1,6 +1,6 @@
 pipeline {
 	agent {
-		label 'cicd-builder-label'
+		label 'master'
 	}
 	options {
 		buildDiscarder(logRotator(numToKeepStr:'10'))
